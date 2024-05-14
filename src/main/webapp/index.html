@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Compras y Ventas</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+     <body>
+        <h3>Form Productos</h3>
+        <form action="/webApp-Producto/registro" method="post">
+        
+        <div>
+            <label for="username">USUARIO</label>
+            <div><input type="text" name="username" id="username"></div>
+        </div>
+        <div>
+            <label for="password">CONTRASEÑA</label>
+            <div><input type="password" name="password" id="password"></div>
+        </div><div>
+            <label for="email">CORREO</label>
+            <div><input type="text" name="email" id="email"></div>
+        </div> 
+            <div> 
+                <label for="tipoDeProducto"></label>
+                <div>
+                    <select name="tipoDeProducto" id="tipoDeProducto ">
+                        <option value="">-- Selecionar</option>
+                        <option value="HG">Higiene</option>
+                        <option value="CM">Comida</option>
+                        <option value="LT">Lacteos</option>
+                        <option value="LC">Licor</option>
+                        <option value="AN">Animales</option>
+                    </select>
+                </div>
+            </div>              
+        <div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </div> 
+      </form>
+    </body>
+</html>
