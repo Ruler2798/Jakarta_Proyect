@@ -14,7 +14,7 @@ import java.io.PrintWriter;
  * @author lphg3
  */
 
-@WebServlet("/registro")
+@WebServlet("/compra")
 public class ComprasServlet extends HttpServlet  {
 
     @Override
